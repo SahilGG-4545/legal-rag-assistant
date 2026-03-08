@@ -3,6 +3,8 @@
 A Retrieval-Augmented Generation (RAG) powered legal document assistant that lets you upload PDF legal documents and ask natural language questions about them. Backed by an AutoGen agent, a FAISS vector store, and the LLaMA 3.3 70B model served via Groq.
 
 ---
+<img width="1132" height="946" alt="Screenshot (227)" src="https://github.com/user-attachments/assets/52673464-ded2-46b4-8a22-f7bba589af3a" />
+
 
 ## Table of Contents
 
@@ -15,7 +17,6 @@ A Retrieval-Augmented Generation (RAG) powered legal document assistant that let
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
@@ -185,20 +186,6 @@ Then open [http://localhost:5000](http://localhost:5000) in your browser.
 2. Wait for the index to build (confirmation shown in UI).
 3. Type your question in the chat box and press **Send**.
 
-### CLI (no web server)
-
-Build the index first:
-
-```bash
-python rag_index_builder.py
-```
-
-Then run a query interactively via `mainchat.py`, or modify `tools.py` directly:
-
-```bash
-python tools.py
-```
-
-## License
 
 This project is licensed under the [MIT License](LICENSE).
+
