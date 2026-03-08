@@ -1,0 +1,9 @@
+openai
+langchain
+autogen
+PyMuPDF
+langchain-core
+langchain-community
+langchain-huggingface
+sentence-transformers
+flask
