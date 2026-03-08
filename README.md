@@ -186,6 +186,7 @@ Then open [http://localhost:5000](http://localhost:5000) in your browser.
 2. Wait for the index to build (confirmation shown in UI).
 3. Type your question in the chat box and press **Send**.
 
-
+## License
 This project is licensed under the [MIT License](LICENSE).
+
 
